@@ -72,3 +72,6 @@ print(d.strip())
 # 문자열 수정 (불가능)
 a = "Pithon"
 # a[1] = 'y'
+
+# 문자열 바꾸기
+a = "python is difficult."
