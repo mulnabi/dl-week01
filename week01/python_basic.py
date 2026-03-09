@@ -300,4 +300,7 @@ def sum1(a, b):
     x = a + b
     return x
 
-def
+def sum2(*args):
+    x = 0
+    for i in args:
+        
