@@ -146,4 +146,5 @@ a.remove(99)
 print(a)
 
 b = [1, 2, 3]
-print(b,pop())
+print(b.pop())
+print[b]
