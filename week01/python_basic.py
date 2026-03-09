@@ -71,7 +71,15 @@ print(d.strip())
 
 # 문자열 수정 (불가능)
 a = "Pithon"
-# a[1] = 'y'    
+# a[1] = 'y'    # 오류 발생
 
 # 문자열 바꾸기
 a = "python is difficult."
+print(a.replace("difficult", "funny"))
+print(a)
+
+# 문자열 나누기
+print(a.split())
+
+b = "a, b, c, d"
+print(b)
