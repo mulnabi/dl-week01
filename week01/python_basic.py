@@ -328,3 +328,15 @@ print(chr(97))
 print(chr(48))
 
 # 문자에 대한 아스키코드 값 출력
+print(ord('a'))
+print(ord('0'))
+
+# 객체 x가 가진 멤버 변수와 멤버 함수 보여주기
+print(dir([1, 2, 3]))
+print(dir({'1':'a'}))
+print(dir(1))
+
+print(int('3'))
+print(str(3))
+
+# x를 리스트로 반환
