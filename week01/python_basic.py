@@ -292,3 +292,7 @@ for score in [90, 25, 67, 45, 93]:
 # while 문
 i = 0
 while i < 5:
+    i += 1
+    print('*' * i)
+    
+# 함수 정의
