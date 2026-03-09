@@ -47,3 +47,5 @@ print(a[7:-11])
 a = "Python"
 print(a.count('p'))
 
+
+
