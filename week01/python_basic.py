@@ -127,3 +127,4 @@ print(a)
 # 원소 정렬
 a.sort()
 print(a)
+
