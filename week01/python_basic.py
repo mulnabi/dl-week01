@@ -430,4 +430,6 @@ while True:
     if not line: break
     print(line)
 
-f
+f.close()
+
+# 
