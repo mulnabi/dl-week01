@@ -126,8 +126,8 @@ a.append(5)
 print(a)
 
 # 원소 정렬
-a.sort()
-print(a)
+b.sort()
+print(b)
 
 # 원소 순서 뒤집기
 a = [3, 4, 1, 9]
