@@ -8,3 +8,8 @@ for n in numbers:
   print(f"{name}에서 {n}의 제곱은{square(n)}입니다.")
 
 print("프로그램 종료")
+
+
+
+
+
