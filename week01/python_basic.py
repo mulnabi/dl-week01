@@ -68,3 +68,7 @@ d = "              py           "
 print(d.lstrip())
 print(d.rstrip())
 print(d.strip())
+
+# 문자열 수정 (불가능)
+a = "Pithon"
+a[1] = 'y'
