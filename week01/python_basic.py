@@ -241,3 +241,5 @@ print(s2)
 
 # 특정 원소 제거
 s2.remove(7)
+print(s2)
+
