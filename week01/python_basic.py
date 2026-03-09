@@ -35,4 +35,9 @@ print(a[4])
 print(a[-1])
 print(a[-2])
 
-b = 
+b = a[0] + a[1] + a[2]
+print(b)
+
+print(a[4:6])
+
+
