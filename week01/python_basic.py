@@ -377,3 +377,19 @@ print(c)
 # 입력 받은 숫자에 해당하는 범위의 값을 반환
 print(range(5))
 print(list(range(5, 10)))
+print(list(range(5, 10, 2)))
+
+for i in range(5, 20, 3):
+    print(i)
+
+# 입력값 s의 길이를 반환
+len('Python')
+
+print(sorted([3, 0, 2, 1]))
+print(sorted('Python'))
+
+# 패키지, 모듈 사용
+# Request('http://www.sunmoon.ac.kr')   # 오류 발생
+
+import urllib.reauest
+
