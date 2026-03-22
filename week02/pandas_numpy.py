@@ -39,7 +39,7 @@ print(sample_df[0:2])
 print(sample_df[0:3])
 print(sample_df[0:3, 2:4])        # 컬럼까지 동시에 인덱스 제거
 
-print(sample_df.drop(['var_1','var_3'], axis=1))
+print(sample_df.drop(['var_1','var_3'], axis=1))     # 컬럼을 제거하려면 axis = 1
 print(sample_df.drop(['var_1','var_2'], axis=1))
 print(sample_df.drop(['a','b','c'], axis=0))
 
