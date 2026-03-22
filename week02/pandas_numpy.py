@@ -1,3 +1,3 @@
 import pandas as pd
 
-file_url = 'https://media.githubusercontent.com/media/mus'
+file_url = 'https://media.githubusercontent.com/media/musthave'
