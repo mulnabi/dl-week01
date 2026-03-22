@@ -41,4 +41,9 @@ print(sample_df[0:3, 2:4])
 
 print(sample_df.drop(['var_1','var_3'], axis=1))
 print(sample_df.drop(['var_1','var_2'], axis=1))
-print(sample_df.drop(['a','b','c'], axis=1))
+print(sample_df.drop(['a','b','c'], axis=0))
+
+netflix = pd.read_csv('2.1.1.netflix.csv')
+print(netflix.head())
+
+print(netflix[])
