@@ -29,7 +29,7 @@ print(sample_df['var_5'])
 print(sample_df[['var_1', 'var_4']])   # [ [] ]를 사용하면 [] 가 하나의 값으로 인식됨
 
 # loc 는 location의 앞글자
-print(sample_df.loc['a'])
+print(sample_df.loc['a'])              # 행 기준으로 인덱스 제거
 print(sample_df.loc[['a','c','e']])
 print(sample_df.loc['a':'c'])
 
