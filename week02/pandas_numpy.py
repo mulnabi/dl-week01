@@ -125,3 +125,9 @@ df = dp.DataFrame(data)
 print(df.head())
 
 # 나이가 30 이상인 직원의 이름과 급여 반환
+result = df[df['age'] >= 30][['name', 'salary']]
+print(result)
+
+# 예제 데이터 생성
+data = {
+    'name': []
