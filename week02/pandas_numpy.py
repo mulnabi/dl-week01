@@ -26,3 +26,8 @@ print(sample_df.head())
 print(sample_df['var_5'])
 
 # print(sample_df['var_1', 'var_2'])
+print(sample_df[['var_1', 'var_4']])
+
+# loc 는 location의 앞글자
+print(sample_df.loc['a'])
+print(sample_df.loc['a'])
