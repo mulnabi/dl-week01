@@ -33,4 +33,4 @@ print(sample_df.loc['a'])
 print(sample_df.loc[['a','c','e']])
 print(sample_df.loc['a':'c'])
 
-# iloc: integer locationdm
+# iloc: integer location
