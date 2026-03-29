@@ -300,3 +300,13 @@ plt.xlabel('parhc')
 plt.ylabel('Not Survived Count', color='indigo')
 plt.tick_params(axis='y', labelcolor='indigo')
 plt.legend(loc='upper right')
+
+# 두 번째 서브플롯 설정(막대 그래프)
+plt.subplot(2, 1, 2)
+plt.bar(x, y2, color='deeppink', alpha=0.7, width=0.5, label='Survived')
+plt.xlabel('Parch')
+plt.ylabel('Survived Count', color='deeppink')
+plt.tick_params(axis='y', labelcolor='deeppink')
+plt.legend(loc='upper right')
+
+# 제목 설정
