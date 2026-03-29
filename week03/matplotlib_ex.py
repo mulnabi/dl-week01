@@ -322,6 +322,10 @@ fig, axes = plt.subplots(2, 2)
 
 # 선그래프
 axes[0, 0].plot([1, 2, 3])
-axes[0, 0].plot([1, 2, 3])
-axes[0, 0].plot([1, 2, 3])
-axes[0, 0].plot([1, 2, 3])
+axes[0, 1].plot([4, 5, 6])
+axes[1, 0].plot([7, 8, 9])
+axes[1, 1].plot([10, 11, 12])
+plt.savefig('Figure14.png')
+plt.close()
+
+## **타이타닉 데이터셋으로 개별 서브플롯 
