@@ -359,7 +359,7 @@ axes[1].legend(loc='upper right')
 # 제목 설정
 fig.suptitle('Survival Analysis by Number of Parents/Children (Parch) on the Titanic')
 fig.tight_layout()
-plt.savefig('figure15.png')
+plt.savefig('Figure15.png')
 plt.close()
 
 ## **하나의 서브플롯에 여러 그래프 그리기**
