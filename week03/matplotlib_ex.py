@@ -215,4 +215,13 @@ print(titanic.info())
 plt.figure(figsize=(10, 6))
 
 # showmeans=Flase는 평균값을 표시하기 않도록 하고, showmedians=True는 중앙값을 표시하도록 함
-violin_plot = plt.violinplot([titanic[titanic['Pclass'] == 1]])
+violin_plot = plt.violinplot([titanic[titanic['Pclass'] == 1],
+                              titanic[titanic['Pclass'] == 2],
+                              titanic[titanic['Pclass'] == 3]],
+                             showmeans=False, showextrema=True)
+
+plt.title('Violin Plot of Age by Pclass')
+plt.xlabel('Pclass')
+plt.ylabel('Age')
+
+# x축의 눈금 설정
