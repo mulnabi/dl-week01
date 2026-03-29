@@ -214,3 +214,4 @@ print(titanic.info())
 # 바이올린 플롯 그리기
 plt.figure(figsize=(10, 6))
 
+# showmeans=Flase는 평균값을 표시하기 않도록 하고, showmedians=True는 중앙값을 표시하도록 함
