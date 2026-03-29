@@ -13,7 +13,7 @@ print(titanic.head())
 # 열에 대한 요약 정보 확인
 print(titanic.info())
 
-"""### **선 그래프 : 객실 등급에 따른 생존율 표시하기"""
+"""### **선 그래프 : 객실 등급에 따른 생존율 표시하기**"""
 
 # 객실 등급에 따른 생존자와 사망자의 평균 계산
 pclass_survived_mean = titanic.groupby('Pclass')['Survived'].mean().reset_index()
@@ -30,6 +30,7 @@ plt.xlabel('Pclass')
 plt.ylabel('Survived Rate')
 plt.xticks([1, 2, 3])
 plt.grid(True)
-plt.svaefig('Figure01.png')
+plt.savefig('Figure01.png')
 plt.close()
 
+"""### **수직 막대 그래프 : 각 승선 항구에 따른 생존자 수 표시하기**"""
