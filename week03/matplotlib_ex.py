@@ -144,7 +144,7 @@ correlation_matrix = titanic.drop('PassengerId', axis=1).corr(numeric_only=True)
 print(correlation_matrix)
 
 # 히트맵 그리기
-plt.metshow(correlation_matrix, cmap='PuRd_r')
+plt.matshow(correlation_matrix, cmap='PuRd_r')
 plt.colorbar()
 
 # x축과 y축의 눈금 설정
