@@ -203,3 +203,14 @@ plt.title('Box Plot for Age by Survived')
 plt.xlabel('survived')
 plt.ylabel('Age')
 plt.savefig('Figure09.png')
+plt.close()
+
+"""### **바이올린 플롯 : 승객 등급에 따른 나이 분포 표시하기**"""
+
+# 결측치 처리
+titanic['Age'] = titanic['Age'].fillna(titanic['Age'].mean())
+print(titanic.info())
+
+# 바이올린 플롯 그리기
+plt.figure(figsize=(10, 6))
+
