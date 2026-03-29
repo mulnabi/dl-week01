@@ -197,4 +197,9 @@ print(titanic.info())
 plt.boxplot([titanic[titanic['Survived'] == 1]['Age'],
              titanic[titanic['Survived'] == 2]['Age'],
              titanic[titanic['Survived'] == 3]['Age']],
-            labels=['1st Class', '2st Class', '3t'])
+            labels=['1st Class', '2nd Class', '3rd Class'])
+
+plt.title('Box Plot for Age by Survived')
+plt.xlabel('survived')
+plt.ylabel('Age')
+plt.savefig('Figure09.png')
