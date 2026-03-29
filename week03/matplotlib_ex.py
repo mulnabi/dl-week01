@@ -256,7 +256,7 @@ plt.xlabel('Parch')
 plt.ylabel('Fare')
 plt.xticks(fare_means.index)
 plt.legend()
-plt.savefig('figure11.png')
+plt.savefig('Figure11.png')
 plt.close()
 
 ## **개별 서브플롯을 하나씩 생성하기**
@@ -312,7 +312,7 @@ plt.legend(loc='upper right')
 # 제목 설정
 plt.suptitle('Survival Analysis by Number of Parents/Children (Parch) on the Titanic')
 plt.tight_layout()
-plt.savefig('figure13.png')
+plt.savefig('Figure13.png')
 plt.close()
 
 ## **개별 서브플롯을 동시에 생성하기**
