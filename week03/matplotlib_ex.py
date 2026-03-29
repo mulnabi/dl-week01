@@ -134,4 +134,10 @@ plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.savefig('Figure06.png')
 plt.close()
 
-## 히트맵 : 두 변수의 상관 관계를 표시하기
+## 히트맵 : 두 변수의 상관 관계를 표시하기**
+
+# 결측치 처리
+titanic = titanic.dropna(subset=['Age', 'Fare'])
+
+# 상관 행렬 계산
+correlation_matrix
