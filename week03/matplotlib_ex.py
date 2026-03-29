@@ -20,7 +20,7 @@ pclass_survived_mean = titanic.groupby('Pclass')['Survived'].mean().reset_index(
 pclass_survived_mean
 
 # 맷플롯립 라이브러리 불러오기
-import metplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 # 선 그래프 그리기
 plt.plot(pclass_survived_mean['Pclass'], pclass_survived_mean['Survived'],
@@ -32,3 +32,4 @@ plt.xticks([1, 2, 3])
 plt.grid(True)
 plt.svaefig('Figure01.png')
 plt.close()
+
