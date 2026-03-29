@@ -23,4 +23,5 @@ pclass_survived_mean
 import metplotlib.pyplot as plt
 
 # 선 그래프 그리기
-plt.plot(pclass_survived_mean['Pclass'])
+plt.plot(pclass_survived_mean['Pclass'], pclass_survived_mean['Survived'],
+         )
