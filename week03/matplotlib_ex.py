@@ -140,4 +140,13 @@ plt.close()
 titanic = titanic.dropna(subset=['Age', 'Fare'])
 
 # 상관 행렬 계산
-correlation_matrix
+correlation_matrix = titanic.drop('PassengerId', axis=1).corr(numeric_only=True)
+print(correlation_matrix)
+
+# 히트맵 그리기
+plt.metshow(correlation_matrix, cmap='PuRd_r')
+plt.colorbar()
+
+# x축과 y축의 눈금 설정
+plt.xticks(range(len(correlation_matrix.columns)), correlation_matrix.columns, rotation=45)
+plt.yticks(range(len(correlation_matrix.columns)), correlation_matrix.columns, rotation=45)
