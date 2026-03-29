@@ -320,3 +320,5 @@ plt.close()
 # 2*2 구성의 figure
 fig, axes = plt.subplots(2, 2)
 
+# 선그래프
+axes[0, 0].plot([1, 2, 3])
