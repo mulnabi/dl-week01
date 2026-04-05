@@ -3,4 +3,16 @@
 # 시본 라이브러리 불러오기
 import seaborn as sns
 
-# **팁()
+# **팁(tips) 데이터셋 불러오기**
+tips = sns.load_dataset('tips')
+print(tips.head())
+
+tips.info()
+
+# **범주형 변수 산점도 그래프**
+
+import matplotlib.pyplot as plt
+
+# figure에 2개의 서브 플롯을 생성
+fig = plt.figure(figsize=(15, 5))
+ax1 = fig.add_subplot(1, 2, 1)
