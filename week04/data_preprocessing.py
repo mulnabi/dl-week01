@@ -24,3 +24,5 @@ for set_ in (start_train_set, start_test_set):
 * 'start_train_set.drop()'은 지정한 열을 제외한 'start_train_set'의 복사본을 만듦
 * 'inplace=True'로 지정하지 않은 한 'start_train_set' 자체를 수정하지 않음
 """
+
+housing = 
