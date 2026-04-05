@@ -51,7 +51,7 @@ plt.savefig('../week04/Seaborn_Figure02.jpg')
 # figure에 2개의 서브 플롯을 생성
 fig = plt.figure(figsize=(15, 5))
 ax1 = fig.add_subplot(1, 2, 1)
-ax2 = fig.add_subfigure(1, 2, 2)
+ax2 = fig.add_subplot(1, 2, 2)
 
 # 산점도에 선형 회귀선 표시(fit_reg=True)
 sns.regplot(x='total_bill', y='tip', data=tips, color='blue', scatter_kws={'s': 50, 'aplha': 0.5}, line_kws={'linestyle': '--'}, ax=ax1)
@@ -60,4 +60,10 @@ sns.regplot(x='total_bill', y='tip', data=tips, color='blue', scatter_kws={'s': 
 sns.regplot(x='total_bill', y='tip', data=tips, color='blue', scatter_kws={'s': 50, 'aplha': 0.5}, line_kws={'linestyle': '--'}, ax=ax1, fit_reg=False)
 
 fig.suptitle('Scatter Plots with Regression Lines', fontsize=16)
-ax1.set_t()
+ax1.set_title('fit_reg = True')
+ax1.set_title('fit_reg = False')
+plt.savefig('../week04/Seaborn_Figure03.jpg')
+
+# **히스토그램과 커널 밀도 추정 그래프**
+# 히스토그램과 커널밀도 추정 그래프 함께 그리기
+sns.histplot()
