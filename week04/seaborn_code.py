@@ -16,4 +16,6 @@ import matplotlib.pyplot as plt
 # figure에 2개의 서브 플롯을 생성
 fig = plt.figure(figsize=(15, 5))
 ax1 = fig.add_subplot(1, 2, 1)
-ax1 = fig.add_subplot(1, 2, 2)
+ax2 = fig.add_subplot(1, 2, 2)
+
+# strippot
