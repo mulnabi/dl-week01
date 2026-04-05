@@ -58,4 +58,5 @@ sns.regplot(x='total_bill', y='tip', data=tips, color='blue', scatter_kws={'s': 
 
 # 산점도에 선형 회귀선 미표시(fit_reg=False)
 sns.regplot(x='total_bill', y='tip', data=tips, color='blue', scatter_kws={'s': 50, 'aplha': 0.5}, line_kws={'linestyle': '--'}, ax=ax1, fit_reg=False)
+
 fig.suptitle('Scatter Plots with Regression Lines', fontsize=16)
