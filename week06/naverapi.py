@@ -28,7 +28,7 @@ def main():
     print('전체 검색 : %d 건' %total)
     
     with open('%s_naver_%s.json' % (srcText, node), 'w', encoding = 'utf8') as outfile:
-        jsonFile = json.dumps(jsonResult), 
+        jsonFile = json.dumps(jsonResult), indent = 4
             
 def getNaverSearch(node, srcText, page_start, display):
     base = "https://openapi.naver.com/v1/search"
