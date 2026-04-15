@@ -35,6 +35,7 @@ def getNaverSearch(node, srcText, page_start, display):
     elif:
         return return json.loads(responseDecode)
 
+
 def getRequestUrl(url):
     req = urllib.request.Request(url)
 
@@ -50,3 +51,9 @@ def getRequestUrl(url):
         print(e)
         print("[%s] Error for URL : %s" % (datetime.datetime.now(), url))
 
+
+def getPostData(post, jsonResult, cnt):
+    title = post['title']
+    description = post['description']
+    org_link = post['originallink']
+    link = post['link']
