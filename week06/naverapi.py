@@ -55,7 +55,7 @@ def getRequestUrl(url):
         print("[%s] Error for URL : %s" % (datetime.datetime.now(), url))
 
 
-def getPostData(post, jsonResult, cnt):
+def getPostData(post, jsonResult, cnt):  #[CODE 3]
     title = post['title']
     description = post['description']
     org_link = post['originallink']
