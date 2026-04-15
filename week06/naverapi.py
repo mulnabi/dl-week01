@@ -48,7 +48,7 @@ def getNaverSearch(node, srcText, page_start, display):
     if (responseDecode == None):
         return None
     elif:
-        return return json.loads(responseDecode)
+        return json.loads(responseDecode)
 
 
 def getRequestUrl(url):
