@@ -22,7 +22,7 @@ def main():
             cnt += 1
             getPostData(post, jsonResult, cnt)
 
-        start = jsonResponse['start'] + json
+        start = jsonResponse['start'] + jsonResponse['display']
             
 def getNaverSearch(node, srcText, page_start, display):
     base = "https://openapi.naver.com/v1/search"
