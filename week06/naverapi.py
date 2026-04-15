@@ -72,3 +72,6 @@ def getPostData(post, jsonResult, cnt):
         'link': link,
         'pDate': pDate
     })
+    return
+
+main()
