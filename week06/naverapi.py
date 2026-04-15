@@ -37,3 +37,6 @@ def getNaverSearch(node, srcText, page_start, display):
 
 def getRequestUrl(url):
     req = urllib.request.urlopen(url)
+
+    req.add_header("X-Naver-Client-Id", client_id)
+    req.add_header
