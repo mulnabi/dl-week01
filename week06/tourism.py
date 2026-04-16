@@ -32,4 +32,4 @@ def getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear):
     result = []
     
     for year in range(nStartYear, nEndYear+1):
-        for month
+        for month in range(1, 13):
