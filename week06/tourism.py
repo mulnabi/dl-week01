@@ -58,4 +58,4 @@ def getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear):
 """### [CODE 2]"""
 
 def getTourismStatsItem(yyyymm, nat_cd, ed_cd):
-    Service_url = ""
+    Service_url = "http://openapi.tour.go.kr/openapi/service/EdrcntTourismStatsService/getEdrcntTourismStatsList"
