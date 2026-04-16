@@ -51,4 +51,4 @@ def getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear):
                 print('[ %s_%s : %s ]' % (natName, yyyymm, num))
                 print('------------------------------------------------------')
                 jsonResult.append({'nat_name': natName, 'nat_cd': nat_cd, 'yyyymm': yyyymm, 'visit_cnt': num})
-                r
+                result.append([natName, nat_cd, yyyymm, num])
