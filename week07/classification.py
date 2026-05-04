@@ -11,5 +11,17 @@ print(X.shape)       # 28 x 28 개의 픽셀 특징을 가진 이미지 70,000�
 print(y)
 print(y.shape)
 
-import matplotlib,pyplot as plt
+import matplotlib.pyplot as plt
 
+def plot_digit(image_data):
+    image = image_data.reshape(28, 28)
+    plt.imshow(image, cmap="binary")
+    plt.axis("off")
+
+some_digit = X[0]
+plot_digit(some_digit)
+plt.show()
+
+print(y[0])
+
+# 10x10 그림 생성
