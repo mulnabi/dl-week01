@@ -194,3 +194,10 @@ plt.show()
 # 넷플릭스 데이터의 description 열 이용한 워드 클라우드 생성
 
 # WordCloud : 워드 클라우드 생성에 필요한 모듈
+# Image : 워드 클라우드를 원하는 형태로 그리기 위해 그림을 불러오는 패키지
+from wordcloud import WordCloud
+from PIL import Image
+
+plt.figure(figsize=(15, 5))
+
+# wordcolud에서 작동할 수 있도록 데이터프레임을 list로 1차 변환시키고 str(문자열)로 2차 변환
