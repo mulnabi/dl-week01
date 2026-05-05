@@ -183,3 +183,5 @@ plt.figure(figsize=(15, 5))
 # 사용자 정의 컬럼맵 만들기
 cmap = plt.matplotlib.colors.LinearSegmentedColormap.from_list('', ['#221f1f','#b20710','#f5f5f1'])
 
+sns.heatmap(netflix_age_country_unstack, cmap = cmap, linewidth=2.5, annot=True, fmt='.0%')
+
