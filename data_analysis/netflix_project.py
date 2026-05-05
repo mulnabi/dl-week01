@@ -103,3 +103,5 @@ print(type_counts)
 
 # 5 x 5 크기의 플롯 만들기
 plt.figure(fiugsize=(5, 5))
+
+plt.pie()
