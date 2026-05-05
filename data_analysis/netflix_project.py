@@ -78,6 +78,9 @@ netflix.head(2)
 netflix = pd.read_csv('netflix_preprocessed.csv')
 
 import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 # 넷플릭스 브랜드 상징 색깔 시각화
 sns.palplot(['#221f1f', '#b20710', '#e50914', '#f5f5f1'])
