@@ -37,4 +37,8 @@ netflix['cast'] = netflix['cast'].replace(np.nan, 'No Data')
 # .dropna(axis = 0) : 결측치가 있는 행 전체 제거
 # 원본 객체를 수정하려면 inplace = True 옵션 추가
 # 결측치 비율 : date_added(0.11%), rating(0.05%), duration(0.03%)
+netflix.dropna(axis = 0, inplace=True)
 
+# .info() : 열에 대한 요악 정보 확인
+# 8807 rows(원본 데이터 행 개수) - 17 rows(결측치 행) = 8790 rows(결측치가 제거된 행 개수)
+netflix.info()
