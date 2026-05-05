@@ -152,3 +152,5 @@ netflix['country']
 # 파이썬 리스트로 바꾼 country 열의 값에 explode( ) 함수를 적용하여 개별 행으로 분리
 netflix_age_country = netflix.explode('country')
 netflix_age_country
+
+# title열의 값이 ‘Sankofa’인 행 전체를 확인하여 country 열과 age_group 열의 값이 어떻게 이루어져 있는지 확인
