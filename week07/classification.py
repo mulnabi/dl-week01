@@ -76,3 +76,9 @@ print(confusion_matrix(y_train_5, y_train_perfect_predictions))
 from sklearn.metrics import precision_score, recall_score
 
 print(precision_score(y_train_5, y_train_pred))  # == 3530 / (687 + 3530)
+
+print(recall_score(y_train_5, y_train_pred))  # == 3530 / (1891 + 3530)
+
+from sklearn.metrics import f1_score
+
+y_scores = cross_val_predict()
