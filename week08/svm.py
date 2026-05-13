@@ -15,4 +15,6 @@ svm_clf = make_pipeline(StandardScaler(),
                         LinearSVC(C=1, dual=True, random_state=42))
 svm_clf.fit(X, y)
 
-X
+X_new = [[5.5, 1.7], [5.0, 1.5]]
+
+print(vsm_clf.predict(X_new))
