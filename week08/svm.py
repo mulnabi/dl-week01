@@ -27,4 +27,5 @@ from sklearn.preprocessing import PolynomialFeatures
 
 X, y = make_moons(n_samples=100, noise=0.15, random_state=42)
 
-PolynomialFeatures(degree=3,)
+ploynomial
+PolynomialFeatures(degree=3)
