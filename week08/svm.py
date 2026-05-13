@@ -36,6 +36,14 @@ ploynomial_svm_clf.fit(X, y)
 
 # 다항식 커널
 
+from sklearn.svm import SVC
+
+poly_kernel_svm_clf = make_pipeline(StandardScaler(),
+                                    SVC(kernel="poly", degree=3, coef0=1, C=5))
+poly_kernel_svm_clf.fit(X, y)
+
+# SVM 회귀
+
 from sklearn.svm import LinearSVR
 
-# 
+# 이 세 줄은 간단한 선형 데이터셋을 생성합니다.
