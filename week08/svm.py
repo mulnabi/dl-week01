@@ -38,3 +38,4 @@ ploynomial_svm_clf.fit(X, y)
 
 from sklearn.svm import SVM
 
+SVM
