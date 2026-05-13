@@ -30,4 +30,5 @@ X, y = make_moons(n_samples=100, noise=0.15, random_state=42)
 ploynomial_svm_clf = make_pipeline(
     PolynomialFeatures(degree=3),
     StandardScaler(),
+    
 )
