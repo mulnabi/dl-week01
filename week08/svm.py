@@ -55,4 +55,6 @@ svm_reg = make_pipeline(StandardScaler(),
                         LinearSVR(epsilon=0.5, dual=True, random_state=42))
 svm_reg.fit(X, y)
 
-from sklearm.svm import SVR
+from sklearn.svm import SVR
+
+# 이 세 줄은 
