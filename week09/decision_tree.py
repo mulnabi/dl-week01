@@ -17,4 +17,6 @@ export_graphviz(
         class_names=iris.target_names,
         rounded=True,
         filled=True
-)
+    )
+
+from graphviz import Source
