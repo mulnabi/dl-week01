@@ -104,4 +104,4 @@ plt.plot([th1, th1], axes[2:], "k-", linewidth=2)
 plt.plot([th2, th2], axes[2:], "k--", linewidth=2)
 plt.text(th1 - 0.01, axes[2] + 0.05, "Depth=0",
          horizontalalignment="right", fontsize=15)
-plt.text()
+plt.text(th2 - 0.01)
