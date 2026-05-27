@@ -96,3 +96,6 @@ for idx, (name, style) in enumerate(zip(iris.target_names, ("yo", "bs", "g^"))):
     plt.plot(X_iris_rotated[:, 0][y_iris == idx],
              X_iris_rotated[:, 1][y_iris == idx],
              style, label=f"Iris {name}")
+
+plt.xlabel("$z_1$")
+plt.ylabel("$z_2$", rotation=0)
