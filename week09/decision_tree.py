@@ -50,3 +50,5 @@ print(tree_clf2.score(X_moons_test, y_moons_test))
 from sklearn.tree import DecisionTreeRegressor
 import numpy as np
 
+np.random.seed(42)
+X_quad = np.random.rand(200, 1) - 0.5  # 간단한 랜덤한 입력 특성
