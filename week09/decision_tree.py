@@ -47,4 +47,6 @@ print(tree_clf2.score(X_moons_test, y_moons_test))
 
 # 회귀
 
-from sklearn.tree
+from sklearn.tree import DecisionTreeRegressor
+import numpy as np
+
