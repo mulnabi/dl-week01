@@ -52,3 +52,5 @@ import numpy as np
 
 np.random.seed(42)
 X_quad = np.random.rand(200, 1) - 0.5  # 간단한 랜덤한 입력 특성
+y_quad = X_quad ** 2 + 0.025 * np.random.randn(200, 1)
+
