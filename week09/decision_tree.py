@@ -34,3 +34,5 @@ from sklearn.datasets import make_moons
 
 X_moons, y_moons = make_moons(n_samples=150, noise=0.2, random_state=42)
 
+tree_clf1 = DecisionTreeClassifier(random_state=42)
+tree_clf2 = DecisionTreeClassifier(min_sam)
