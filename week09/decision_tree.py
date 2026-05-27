@@ -59,5 +59,5 @@ tree_reg.fit(X_quad, y_quad)
 
 export_graphviz(
     tree_reg,
-    out_file="regressing_tree."
+    out_file="regression_tree."
 )
