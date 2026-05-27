@@ -70,3 +70,7 @@ Source.from_file("regression_tree.dot")
 
 from sklearn.decomposition import PCA
 from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import StandardScaler
+
+pca_pipeline = make_pipeline(StandardScaler(), PCA())
+X_iris_rotated = pca_pipeline.fit_transform(X_iris)
