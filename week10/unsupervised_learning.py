@@ -26,4 +26,5 @@ kmeans = KMeans(n_clusters=k, n_init=10, random_state=42)
 y_pred = kmeans.fit_predict(X)
 
 def plot_clusters(X, y=None):
-    plt.scatter
+    plt.scatter(X[:, 0], X[:, 1], c=y, s=1)
+    plot
