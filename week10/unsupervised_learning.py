@@ -118,4 +118,6 @@ plt.show()
 
 # DBSCAN
 from sklearn.cluster import DBSCAN
-fro
+from sklearn.datasets import make_moons
+
+X,
