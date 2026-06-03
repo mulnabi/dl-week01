@@ -113,3 +113,8 @@ for k in (3, 4, 5, 6):
     
     plt.axvline(x=silhouette_scores[k - 2], color="red", linestyle="--")
     plt.title(f"$k={k}$")
+    
+plt.show()
+
+# DBSCAN
+from sklearn.cluster import DBSCAN
