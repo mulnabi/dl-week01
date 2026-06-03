@@ -92,3 +92,4 @@ for k in (3, 4, 5, 6):
     ticks = []
     for i in range(k):
         coeffs = silhouette_coefficients[y_pred == i]
+        coeffs.sort()
