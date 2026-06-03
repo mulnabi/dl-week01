@@ -130,4 +130,5 @@ print(dbscan.core_sample_indices_[:10])
 print(dbscan.components_)
 
 def plot_dbscan(dbscan, X, size, show_xlabels=True, show_ylabels=True):
-    core_make = np.zeros_like
+    core_make = np.zeros_like(dbscan.labels_, dtype=bool)
+    
