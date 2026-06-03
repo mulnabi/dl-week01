@@ -77,4 +77,9 @@ plt.grid()
 plt.show()
 
 from sklearn.metrics import silhouette_samples
-from matplotlib
+from matplotlib.ticker import FixedLocator, FixedFormatter
+
+plt.figure(figsize=(11, 9))
+
+for k in (3, 4, 5, 6):
+    
