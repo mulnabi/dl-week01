@@ -111,3 +111,4 @@ for k in (3, 4, 5, 6):
     else:
         plt.tick_params(labelbottom=False)
     
+    
