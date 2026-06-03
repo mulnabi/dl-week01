@@ -68,4 +68,5 @@ print(silhouette_score(X, kmeans.labels_))
 
 silhouettes = [silhouette_score(X, model.labels_) for model in kmeans_per_k]
 
-plt.figure(figsize(8, 3))
+plt.figure(figsize=(8, 3))
+plt.plot(range(2, 10), silhouettes, "bo-")
